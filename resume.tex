@@ -1,0 +1,101 @@
+% Настройки
+\documentclass{article}
+% Форматирование страниц 
+\usepackage[left=3cm,right=3cm,top=1cm,bottom=3cm,bindingoffset=0cm]{geometry}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{txfonts}
+\usepackage{mathdots}
+\usepackage[classicReIm]{kpfonts}
+\usepackage[dvips]{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{6600ff} % цвет ссылок
+\definecolor{urlcolor}{HTML}{8b00ff} % цвет гиперссылок
+\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+
+% Начала документа
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+Ф.И.О
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Фотография справа и Контактные данные слева
+\begin{minipage}{0.4\textwidth}
+    \noindent \includegraphics*[width=1.47in, height=2.02in, keepaspectratio=false]{photo}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+\begin{flushright}
+    \noindent Санкт-Петербург
+    
+    \noindent Телефон: 
+    
+    \noindent e-mail: \href{e-mail}{e-mail}
+    
+    \noindent skype: 
+    
+    \noindent GitHub.com: \href{GitHub.com}{GitHub.com}
+    
+    \noindent CodeForces.com: \hrefCodeForces.com}{CodeForces.com}
+\end{flushright}
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\noindent РЕЗЮМЕ
+\end{center}
+
+\begin{flushleft}
+\textit{\noindent \textbf{\textit{Опыт работы:}}}
+\end{flushleft}
+\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{flushleft}
+\textit{\textbf{\textit{Ключевые навыки:}}}
+\end{flushleft}
+
+\begin{enumerate}
+\begin{minipage}{0.4\textwidth}
+    \item 1
+    \item 2
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+    \item 1
+    \item 2
+\end{minipage}
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{flushleft}
+\noindent \textbf{\textit{Высшее образование:}}
+\end{flushleft}
+\begin{enumerate}
+    \item 1
+\end{enumerate}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{flushleft}
+\textbf{\textit{Обо мне:}}
+\end{flushleft}
+\begin{enumerate}
+\begin{minipage}{0.4\textwidth}
+    \item 1
+    \item 2
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+    \item 1
+    \item 2    
+\\
+\end{minipage}
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\textit{Знание языков:}}
+\begin{enumerate}
+    \item 1
+    \item 2
+\end{enumerate}
+\end{document}
